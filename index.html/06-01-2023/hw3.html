@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script>
+ let Enivornment =prompt("Enter a enivornment",["Developer","Test","Stage","Prod"]);
+let Amount=prompt("enter amount");
+Amount=Number(Amount);
+ 
+ switch (Enivornment)
+ {
+    case ('Developer'): {
+    sendamount =Amount+(Amount*10)/100 ;
+    break;
+    }
+    case ('Test') :
+    sendamount =Amount+(Amount*20)/100;
+    break;
+    case ('Stage'):
+    sendamount =Amount+(Amount*30)/100;
+    break;
+    case ('Prod'):
+    sendamount= Amount+(Amount*5)/100;
+    break;
+    default :
+    sendamount = " not a correct enivornment"
+    break;
+
+ }
+ console.log(sendamount);
+
+    </script>
+</head>
+</html>
