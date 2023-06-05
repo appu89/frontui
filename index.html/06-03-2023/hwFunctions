@@ -1,0 +1,32 @@
+<html>
+<head>
+    <h1> Functions Assignment</h1>
+    <h2> Hobbies Display</h2>
+    </head>
+<body>
+<script>
+    let hobbies =["cooking","Reading","singing","Sketching"];
+    function gethobbies() 
+    {
+    return hobbies;
+    }
+ function newhobby(){
+    hobbies.push("Dancing");
+    return hobbies;
+ }
+function removehobby(){
+    for(i=0;i<=hobbiess.length;i++){
+        if(hobbies[i]=="cooking"){
+            hobbies.slice(i,1);
+            return hobbies;
+
+        }
+    }
+
+}
+console.log(gethobbies());
+console.log(newhobby());
+console.log(removehobby());
+</script>
+</body>
+</html>
